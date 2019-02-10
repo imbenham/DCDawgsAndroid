@@ -1,0 +1,16 @@
+{
+    "projectName": "DCDawgs",
+    "projectPath": "/Users/isaacbenham/DCDawgsAndroid",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "android": "/Users/isaacbenham/.nvm/versions/node/v11.7.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-android"
+    },
+    "providers": {
+        "awscloudformation": "/Users/isaacbenham/.nvm/versions/node/v11.7.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    },
+    "amplify-frontend-android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    }
+}
