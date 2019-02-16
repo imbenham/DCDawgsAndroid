@@ -1,5 +1,4 @@
 package com.example.dcdawgs_android
-
 import android.support.v7.app.AppCompatActivity
 import com.amazonaws.mobile.config.AWSConfiguration
 import com.amazonaws.mobileconnectors.appsync.AWSAppSyncClient

@@ -7,7 +7,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.dcdawgs_android"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -32,6 +32,13 @@ dependencies {
     implementation 'com.amazonaws:aws-android-sdk-appsync:2.7.+'
     implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
     implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+
+    //For AWSMobileClient only:
+    implementation 'com.amazonaws:aws-android-sdk-mobile-client:2.12.+'
+    // Cognito UserPools for SignIn
+    implementation 'com.amazonaws:aws-android-sdk-auth-userpools:2.12.+'
+    // Sign in UI Library - can remove once custom solution is built
+    implementation 'com.amazonaws:aws-android-sdk-auth-ui:2.12.+'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
